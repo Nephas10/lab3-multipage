@@ -1,3 +1,4 @@
+//load useers
 document.getElementById("loadUsersBtn")?.addEventListener("click",
     async () => {
     try {
@@ -5,7 +6,7 @@ document.getElementById("loadUsersBtn")?.addEventListener("click",
     fetch('https://jsonplaceholder.typicode.com/users');
     const users = await res.json();
     console.log(users);
-    
+
     const userList = document.getElementById("userList");
     userList.innerHTML = "";
     users.forEach(user => {
@@ -17,12 +18,13 @@ document.getElementById("loadUsersBtn")?.addEventListener("click",
     console.error("Failed to load users:", err);
     }
     });
+    //FAQs
 document.querySelectorAll(".question").forEach((q) => {
     q.addEventListener("click", () => {
     q.nextElementSibling.classList.toggle("visible");
      }); 
 });
-
+//
 document.getElementById("contactForm")?.addEventListener("submit", (e) => {
     e.preventDefault();
 
@@ -36,6 +38,7 @@ document.getElementById("contactForm")?.addEventListener("submit", (e) => {
         e.target.reset(); // optional reset
     }
 });
+// Theme toggle
 document.getElementById("themeToggle").addEventListener("click", () =>{
     document.body.classList.toggle("dark-theme");
 });
