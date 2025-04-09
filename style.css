@@ -113,13 +113,13 @@ nav ul li a:hover {
 }
 
 /* Contact Form */
-.contact-form {
+.contactForm {
     width: 50%;
     margin: auto;
     padding: 20px;
 }
 
-.contact-form input, .contact-form textarea {
+.contactForm input, .contactForm textarea {
     width: 100%;
     margin-bottom: 10px;
     padding: 8px;
@@ -137,6 +137,13 @@ button {
 button:hover {
     background: #555;
 }
+.answer {
+    display: none;
+}
+.answer.visible {
+    display: block;
+}
+
 
 /* Animation using @keyframes */
 @keyframes fadeIn {
@@ -154,6 +161,10 @@ button:hover {
     animation: fadeIn 1s ease-in-out;
 }
 
+.dark-theme{
+    background-color: #121212;
+    color: #f0f0f0;
+}
 /* Responsive Breakpoints */
 @media (max-width: 1024px) {
     .content {

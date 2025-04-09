@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - Lab 3</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href=" style.css">
 </head>
+
 <body>
+    
     <section class="hero">
         <h1>Welcome to Our Website</h1>
         
@@ -20,14 +22,40 @@
         </nav>
     </header>
 
+    <h2>Team Members</h2>
+    <ul id="userList"></ul>
+    <button id="loadUsersBtn">load Users</button>
 
+
+    <button id="themeToggle">Switch Theme</button>
     <section class="content">
         <div class="box">Section 1</div>
         <div class="box">Section 2</div>
     </section>
-
+    <section class="faq-section">
+        <h2>Frequently Asked Questions</h2>
+    
+        <div class="faq-item">
+            <h3 class="question">What is this website about?</h3>
+            <p class="answer">This is a demo project for learning web development.</p>
+        </div>
+    
+        <div class="faq-item">
+            <h3 class="question">How do I contact support?</h3>
+            <p class="answer">Use the contact form to send us a message. We'll reply promptly.</p>
+        </div>
+    
+        <div class="faq-item">
+            <h3 class="question">Is this site responsive?</h3>
+            <p class="answer">Yes! It adapts to all screen sizes using media queries.</p>
+        </div>
+    </section>
+    
+    
+    
     <footer>
         <p>&copy; 2025 Lab 3 Project</p>
     </footer>
+    <script src="script.js" defer></script>
 </body>
 </html>
