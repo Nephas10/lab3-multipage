@@ -165,6 +165,12 @@ button:hover {
     background-color: #121212;
     color: #f0f0f0;
 }
+.dark-theme .box{
+    background-color: #3b2d2d;
+}
+.dark-theme .hero{
+    background-color: rgb(8, 9, 9);
+}
 /* Responsive Breakpoints */
 @media (max-width: 1024px) {
     .content {
