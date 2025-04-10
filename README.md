@@ -18,3 +18,12 @@ Implemented in .services-grid for a structured grid layout.
 Uses grid-template-columns for responsiveness.
 Animations	Used @keyframes fadeIn for the hero section, and a hover effect on service cards.
 Media Queries	Implemented breakpoints at 1024px, 768px, and 480px for responsiveness.
+
+## Video Demonstration
+-Theme toggle in action
+-Contact form validation and response
+-FAQ show/hide interaction
+-Fetched user list displayed dynamically
+
+Group members:
+Nephas Kango, Enala Saishi
